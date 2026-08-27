@@ -1,0 +1,45 @@
+{
+  "name": "@oke3/opencode-terminalforge",
+  "version": "0.1.0",
+  "description": "Terminal workspace for OpenCode projects — registry, launcher, session stats",
+  "type": "module",
+  "bin": {
+    "terminalforge": "./dist/cli.js",
+    "tf": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build && bun test"
+  },
+  "keywords": [
+    "opencode",
+    "terminal",
+    "workspace",
+    "tui",
+    "projects",
+    "launcher",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=22.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "author": "oke3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oke3/opencode-terminalforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oke3/opencode-terminalforge/issues"
+  },
+  "homepage": "https://github.com/oke3/opencode-terminalforge#readme"
+}
