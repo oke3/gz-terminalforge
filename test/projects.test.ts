@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test'
 import { ProjectRegistry } from '../src/projects.js'
 import { mkdtempSync, rmSync, mkdirSync } from 'node:fs'

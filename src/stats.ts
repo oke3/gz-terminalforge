@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Session statistics per project — read from OpenCode's SQLite database.
  */

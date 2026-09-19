@@ -1,9 +1,11 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
- * @oke3/opencode-terminalforge — terminal workspace for OpenCode projects.
+ * @ground-zero-llc/gz-terminalforge — terminal workspace for OpenCode projects.
  *
  * @example
  * ```typescript
- * import { ProjectRegistry, getProjectStats } from '@oke3/opencode-terminalforge'
+ * import { ProjectRegistry, getProjectStats } from '@ground-zero-llc/gz-terminalforge'
  *
  * const registry = new ProjectRegistry('./data')
  * registry.add('./my-project')

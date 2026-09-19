@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Project registry — tracks OpenCode projects in a JSONL store.
  */

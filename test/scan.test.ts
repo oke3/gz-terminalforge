@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import { describe, it, expect, beforeEach, afterEach } from 'bun:test'
 import { scanProjects, isProject } from '../src/scan.js'
 import { mkdtempSync, rmSync, mkdirSync, writeFileSync } from 'node:fs'

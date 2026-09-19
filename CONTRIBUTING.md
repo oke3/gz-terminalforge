@@ -1,4 +1,4 @@
-# Contributing to opencode-terminalforge
+# Contributing to gz-terminalforge
 
 Thanks for your interest in contributing!
 
